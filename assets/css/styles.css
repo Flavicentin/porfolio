@@ -7,7 +7,7 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 230;
+    --hue-color: 2000;
     /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
     /* HSL color mode */
@@ -900,6 +900,33 @@ img {
 .swiper-container .swiper-pagination-testimonial {
     bottom: 0rem;
 }
+/*==================== DIFERENCIAL ====================*/
+.diferencial__container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.difencial__box{
+    position: relative;
+    background-color: var(--container-color);
+    border-radius: 0.7rem;
+    padding: 1rem;
+}
+
+.dif__icon{
+    font-size: 2.5rem;
+    position: absolute;
+    top: -2rem;
+    color: var(--first-color);
+}
+
+.diferencial__title{
+    font-size: var(--h3-font-size);
+    color: var(--first-color);
+    margin: 0.5rem 0;
+}
+
+
 
 /*==================== CONTACT ME ====================*/
 .contact__container {
@@ -1119,6 +1146,10 @@ img {
     .testimonial__data,
     .testimonial__description {
         text-align: center;
+    }
+
+    .diferencial__container{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1349,6 +1380,10 @@ img {
 
     .footer__copy {
         margin-top: 4.5rem;
+    }
+
+    .diferencial__container{
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
