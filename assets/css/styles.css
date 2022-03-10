@@ -904,6 +904,7 @@ img {
 .diferencial__container{
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+    row-gap: 3rem;
 }
 
 .difencial__box{
